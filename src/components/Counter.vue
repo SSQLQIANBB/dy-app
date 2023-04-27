@@ -1,7 +1,6 @@
 <template>
-  <view>
-    <text class="title">{{ counter.count }}</text>
-    <view class="button" @tap="onAdd">ADD</view>
+  <view class="title">
+    hello dyApp
   </view>
 </template>
 
@@ -33,9 +32,7 @@ export default {
 <style>
 .title {
   font-size: 32px;
-}
-.button {
-  border: 1px solid lightgray;
-  padding: 5px 10px;
+  text-align: center;
+  background: skyblue;
 }
 </style>
